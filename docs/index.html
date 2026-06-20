@@ -150,6 +150,12 @@
     }
     .dl-btn:hover { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--ink); }
     .dl-btn.ghost-btn { background: var(--panel); color: var(--ink); }
+    .chatgpt-note {
+      margin-top: 32px; padding: 20px;
+      border: 2px dashed var(--line); border-radius: 8px;
+      background: var(--panel); text-align: center;
+    }
+    .chatgpt-note p { margin: 0; color: var(--muted); }
     footer {
       display: flex; justify-content: space-between; gap: 16px;
       padding: 28px clamp(18px, 5vw, 72px);
@@ -264,6 +270,15 @@
           </a>
           <p style="margin-top:12px;font-size:13px">Requer Python 3.6+. Rode com <code>python3 chatgpt_app.py</code></p>
         </div>
+      </div>
+
+      <div class="chatgpt-note">
+        <p>
+          💡 Também temos o <strong>Gemini Desktop</strong>!
+          <a href="https://ryanabcraft.github.io/gemini-desktop/" style="color:var(--blue);font-weight:700;text-decoration:none">
+            Acessar →
+          </a>
+        </p>
       </div>
     </section>
 
