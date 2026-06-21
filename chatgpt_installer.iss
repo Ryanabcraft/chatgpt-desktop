@@ -1,10 +1,10 @@
 [Setup]
 AppName=ChatGPT Desktop
-AppVersion=1.0.0
+AppVersion=1.1.0
 AppPublisher=Ryanabcraft
 AppPublisherURL=https://github.com/Ryanabcraft/chatgpt-desktop
 AppSupportURL=https://github.com/Ryanabcraft/chatgpt-desktop/issues
-DefaultDirName={autopf}\ChatGPT Desktop
+DefaultDirName={localappdata}\ChatGPT Desktop
 DefaultGroupName=ChatGPT Desktop
 UninstallDisplayIcon={app}\ChatGPT.exe
 UninstallDisplayName=ChatGPT Desktop
@@ -12,7 +12,7 @@ OutputDir=dist_installer
 OutputBaseFilename=ChatGPT-Desktop-Setup
 Compression=lzma2
 SolidCompression=yes
-PrivilegesRequired=admin
+PrivilegesRequired=lowest
 
 [Languages]
 Name: "brazilianportuguese"; MessagesFile: "compiler:Languages\BrazilianPortuguese.isl"
